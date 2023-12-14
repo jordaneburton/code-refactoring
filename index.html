@@ -14,7 +14,7 @@ TODO LIST:
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/css/style.css">
     <!-- updated with a more descriptive title -->
-    <title>Horiseon</title>
+    <title>HoriSEOn</title>
 </head>
 
 <!-- TODO: Update elements to more semantic counterparts where appropriate -->
@@ -23,11 +23,11 @@ TODO LIST:
 <!-- *NOTE* use caution if changing class and id tags. Most of the CSS relies on class and id selectors rather than element selectors (except body element) -->
 <body>
     <!-- updated with header tag -->
-    <header class="header">
+    <header>
         <!-- REEVAL: This looks ugly in VS but no alt solution yet -->
         <h1>Hori<span class="seo">seo</span>n</h1>
         <!-- TODO: possibly use nav element -->
-        <div>
+        <nav>
             <ul>
                 <li>
                     <a href="#search-engine-optimization">Search Engine Optimization</a>
@@ -39,12 +39,12 @@ TODO LIST:
                     <a href="#social-media-marketing">Social Media Marketing</a>
                 </li>
             </ul>
-        </div>
+        </nav>
     </header>
+    <div id="cover-image"></div>
     <!-- this is the main body of the content -->
     <!-- TODO: replace or wrap this in main tag -->
-    <div class="hero"></div>
-    <div class="content">
+    <main>
         <div class="search-engine-optimization">
             <img src="./assets/images/search-engine-optimization.jpg" class="float-left" alt="An open notebook with S E O in the center, surrounded by illustrations for how to improve Search Engine Optimization"/>
             <h2>Search Engine Optimization</h2>
@@ -66,9 +66,9 @@ TODO LIST:
                 Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
             </p>
         </div>
-    </div>
+    </main>
     <!-- TODO: sidebar, replace with aside tag -->
-    <div class="benefits">
+    <aside>
         <div class="benefit-lead">
             <h3>Lead Generation</h3>
             <img src="./assets/images/lead-generation.png" alt="A gear going through a funnel, outputting a dollar sign"/>
@@ -90,7 +90,7 @@ TODO LIST:
                 As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
             </p>
         </div>
-    </div>
+    </aside>
     <!-- updated with footer tag -->
     <footer class="footer">
         <h2>Made with ❤️️ by Horiseon</h2>
