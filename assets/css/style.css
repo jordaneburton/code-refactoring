@@ -1,4 +1,3 @@
-/* TODO: properly comment CSS file */
 /* General styling baselines */
 * {
     box-sizing: border-box;
@@ -99,34 +98,6 @@ main {
     }
 }
 
-/* main > section {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-main > section > img {
-    max-height: 200px;
-}
-
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
-main h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-} */
-
 /* Styling for sidebar */
 aside {
     margin-right: 20px;
@@ -155,22 +126,6 @@ aside {
     }
 }
 
-/* aside > section {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-aside h2 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-aside > section > img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-} */
-
 /* Styling for footer of webpage */
 footer {
     padding: 30px;
@@ -182,7 +137,3 @@ footer {
         font-size: 20px;
     }
 }
-
-/* footer h2 {
-    font-size: 20px;
-} */
