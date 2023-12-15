@@ -1,5 +1,5 @@
 /* TODO: properly comment CSS file */
-
+/* General styling baselines */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -10,6 +10,16 @@ body {
     background-color: #d9dcd6;
 }
 
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* Styling for webpage header/navigation bar */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -43,15 +53,7 @@ header nav ul li {
     margin-left: 25px;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
-
+/* Styling for cover image */
 #cover-image {
     height: 800px;
     width: 100%;
@@ -61,6 +63,7 @@ p {
     background-position: center;
 }
 
+/* Styling for main sections on page */
 main {
     width: 75%;
     display: inline-block;
@@ -95,6 +98,7 @@ main h2 {
     font-size: 36px;
 }
 
+/* Styling for sidebar */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -154,6 +158,7 @@ aside {
     max-width: 150px;
 }
 
+/* Styling for footer of webpage */
 footer {
     padding: 30px;
     clear: both;
