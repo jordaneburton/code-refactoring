@@ -4,7 +4,7 @@ Refactor codebase in HTML and CSS for an example website
 ## Description
 
 For this project, I had to take an index.html file and its corresponding css stylesheet and refactor the code in order to use more semantic elements where appropriate. Here is the original index.HTML file:
-![Original index.html file with multiple div elements](./images/original-code.jpg)
+![Original index.html file with multiple div elements](./assets/images/original-code.jpg)
 
 The original index file was filled with div elements to separate almost everything. Not very developer-friendly at all. So I changed multiple elements to semantically describe their purpose. Some examples were using `main` and `aside` tags for the main content on the page and the sidebar.
 
