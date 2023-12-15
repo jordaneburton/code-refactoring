@@ -25,6 +25,11 @@ header {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
+
+    /* h1 {
+        display: inline-block;
+        font-size: 48px; 
+    } */
 }
 
 header h1 {
@@ -116,48 +121,16 @@ aside > section {
     color: #ffffff;
 }
 
-/* .benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-} */
-
 aside h2 {
     margin-bottom: 10px;
     text-align: center;
 }
-
-/* .benefit-brand h2 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h2 {
-    margin-bottom: 10px;
-    text-align: center;
-} */
 
 aside > section > img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
-/* .benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-} */
 
 /* Styling for footer of webpage */
 footer {
