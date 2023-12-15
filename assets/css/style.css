@@ -19,7 +19,7 @@ p {
     font-size: 16px;
 }
 
-/* Styling for webpage header/navigation bar */
+/* Styling for webpage header */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -36,6 +36,7 @@ header h1 .seo {
     color: #d9dcd6;
 }
 
+/* Styling for navigation bar */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
