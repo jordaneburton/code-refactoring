@@ -33,6 +33,8 @@ main > h2 {
 
 I did make this decision mainly to be more developer-friendly. For a beginner web developer at least, it can difficult to understand what is being styled when the HTML file is indented but the CSS file is not. Therefore, instead of using child/descendant selectors, I opted to nest my selectors inside of the corresponding "parent selectors". I don't typically code in CSS using nested selectors, but it did help me understand the structure of my HTML elements a little better.
 
+Here is a link to the deployed project: [https://jordaneburton.github.io/code-refactoring/]
+
 ### Dependencies
 
 * An up-to-date browser
